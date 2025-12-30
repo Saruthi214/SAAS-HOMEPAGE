@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SaaS Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #ffffff;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4f46e5;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      border: none;
+      background: #e5e7eb;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .primary {
+      background: #4f46e5;
+      color: #fff;
+    }
+
+    .secondary {
+      background: transparent;
+      border: 1px solid #4f46e5;
+      color: #4f46e5;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #4f46e5, #6366f1);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .hero-buttons button {
+      margin: 10px;
+    }
+
+    .features {
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 40px;
+    }
+
+    .feature-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      width: 280px;
+      border-radius: 10px;
+    }
+
+    .pricing {
+      background: #f1f5f9;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .price-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .price-card {
+      background: #ffffff;
+      padding: 30px;
+      width: 260px;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-size: 32px;
+      margin: 15px 0;
+    }
+
+    .highlight {
+      border: 2px solid #4f46e5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffffff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">SaaSify</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="btn primary">Get Started</button>
+  </header>
+
+  <section class="hero">
+    <h1>Grow Your Business Faster</h1>
+    <p>All-in-one SaaS platform to manage, track, and scale your business efficiently.</p>
+    <div class="hero-buttons">
+      <button class="btn primary">Start Free Trial</button>
+      <button class="btn secondary">Learn More</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Our Features</h2>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>Cloud Based</h3>
+        <p>Access your data anytime, anywhere with secure cloud storage.</p>
+      </div>
+      <div class="card">
+        <h3>Analytics</h3>
+        <p>Track performance with real-time insights and reports.</p>
+      </div>
+      <div class="card">
+        <h3>Secure</h3>
+        <p>Enterprise-level security to protect your business data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <h2>Simple Pricing</h2>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Basic</h3>
+        <p class="price">₹0</p>
+        <p>For individuals</p>
+        <button class="btn">Choose Plan</button>
+      </div>
+
+      <div class="price-card highlight">
+        <h3>Pro</h3>
+        <p class="price">₹999</p>
+        <p>For growing teams</p>
+        <button class="btn primary">Choose Plan</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">₹2499</p>
+        <p>For large businesses</p>
+        <button class="btn">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SaaSify. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
